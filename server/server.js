@@ -27,7 +27,7 @@ app.use(cors({
     if (!origin) return callback(null, true);
 
     // Accept any http://localhost:<port> origin during development
-    if (origin.startsWith('http://localhost')) return callback(null, true);
+    if (origin.startsWith('http://localhost:5173','https://greencart-three-eta.vercel.app')) return callback(null, true);
 
     // otherwise fall back to rejecting unknown origins
     return callback(new Error('CORS policy does not allow this origin'), false);
