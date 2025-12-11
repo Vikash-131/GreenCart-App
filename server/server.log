@@ -1,0 +1,9 @@
+Database Connected
+Routes registered:
+- /api/user
+- /api/seller
+- /api/product
+- /api/cart
+- /api/address
+- /api/order
+Server is running on http://localhost:4000
